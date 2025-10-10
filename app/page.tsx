@@ -115,6 +115,12 @@ export default function Home() {
       icon: <Coins className="h-8 w-8 text-amber-400" />,
       description: "Fiscal responsibility and market principles.", // Shorter description
     },
+    {
+      id: "geography",
+      title: "Conservative Geography",
+      icon: <Brain className="h-8 w-8 text-blue-400" />, // Using Brain icon for geography for distinction
+      description: "Physical and human geography concepts.", // Shorter description
+    },
     // { // Keep psychology commented out or add it back if needed
     //   id: "psychology",
     //   title: "Cognitive Psychology",
@@ -170,7 +176,8 @@ export default function Home() {
             NPTEL Quiz Zone
           </h1>
           <p className="text-gray-400 max-w-xl mx-auto text-base sm:text-lg">
-            Sharpen your knowledge for NPTEL courses. Select a category below to begin.
+            Sharpen your knowledge for NPTEL courses. Select a category below to
+            begin.
           </p>
         </section>
         {/* Category Selection Section */}
